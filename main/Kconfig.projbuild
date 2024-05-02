@@ -1,0 +1,11 @@
+menu "DRV8835 configuration"
+
+    config AIN1
+        int "AIN1 GPIO number"
+        default 12
+
+    config AIN2
+        int "AIN2 GPIO number"
+        default 13
+
+endmenu
